@@ -1,0 +1,6 @@
+<h1>Coaching#answer</h1>
+<p>You asked coach:  <%=@question%></p>
+<p>---------------------------------</p>
+<p>Coach says:  <%= coach_answer_enhanced(@question)  %> </p>
+
+<%=link_to "ask another question", ask_path %>
